@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import sample.controllers.PlayingFieldController?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fx:id="game1" fitHeight="400.0000305175781" fitWidth="193.76171875" layoutX="0.0" layoutY="0.0" onMouseClicked="#game1Click" onMouseEntered="#gameWhite" onMouseExited="#gameBack" pickOnBounds="true" preserveRatio="false" smooth="true">
+      <image>
+        <Image url="@../images/pic2.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="400.0000305175781" fitWidth="206.0" layoutX="394.0" layoutY="0.0" pickOnBounds="true" preserveRatio="false" smooth="true">
+      <image>
+        <Image url="@../images/pic2.png" />
+      </image>
+    </ImageView>
+    <ImageView fitHeight="400.0000305175781" fitWidth="200.76171875" layoutX="193.0" layoutY="0.0" pickOnBounds="true" preserveRatio="false" smooth="true">
+      <image>
+        <Image url="@../images/pic1.png" />
+      </image>
+    </ImageView>
+    <Button id="game1" fx:id="back" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" onAction="#backClick" prefHeight="31.0" text="Back to menu" />
+  </children>
+</AnchorPane>

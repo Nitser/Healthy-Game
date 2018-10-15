@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="202.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Button id="ok" fx:id="save" layoutX="53.0" layoutY="234.0" mnemonicParsing="false" onAction="#okClick" prefWidth="97.0" text="Ok" />
+    <Button id="cancel" fx:id="delete" layoutX="103.0" layoutY="77.0" mnemonicParsing="false" onAction="#deleteClick" prefWidth="73.0" text="Delete">
+      <font>
+        <Font name="Comic Sans MS" size="11.0" fx:id="x1" />
+      </font>
+    </Button>
+    <TextField fx:id="name" layoutX="20.0" layoutY="44.0" prefWidth="163.0" promptText="Input your name" />
+    <Label alignment="CENTER" layoutX="21.0" layoutY="19.0" prefWidth="155.0" text="Choose player">
+      <font>
+        <Font name="Calibri" size="14.0" />
+      </font>
+    </Label>
+    <ScrollPane layoutX="20.0" layoutY="113.0" prefHeight="115.0" prefWidth="163.0">
+      <content>
+        <ListView fx:id="playerList" prefHeight="238.0" prefWidth="148.0" />
+      </content>
+    </ScrollPane>
+    <Button id="cancel" font="$x1" layoutX="20.0" layoutY="77.0" mnemonicParsing="false" onAction="#addClick" prefWidth="73.0" text="Add" />
+  </children>
+</AnchorPane>

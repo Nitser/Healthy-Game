@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <ImageView fitHeight="409.0" fitWidth="613.5" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../images/background2.png" />
+      </image>
+    </ImageView>
+    <Label alignment="CENTER" layoutX="159.0" layoutY="173.0" prefHeight="55.0" prefWidth="222.0" text="MENU" textAlignment="CENTER" translateX="30.0">
+      <font>
+        <Font name="Comic Sans MS" size="40.0" />
+      </font>
+    </Label>
+    <Button fx:id="resumeButton" contentDisplay="CENTER" layoutX="158.0" layoutY="251.0" mnemonicParsing="false" onAction="#resumeClick" prefHeight="35.0" prefWidth="238.0" text="START" textAlignment="CENTER" translateX="23.0">
+      <font>
+        <Font name="Comic Sans MS" size="22.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="newGameButton" contentDisplay="CENTER" font="$x1" layoutX="158.0" layoutY="319.0" mnemonicParsing="false" onAction="#newGameClick" prefHeight="35.0" prefWidth="238.0" text="CHOOSE PLAYER!" textAlignment="CENTER" translateX="23.0" />
+    <Label id="delete" fx:id="hello" alignment="CENTER" layoutX="81.0" layoutY="73.0" prefHeight="55.0" prefWidth="379.0" text="" textAlignment="CENTER" translateX="30.0">
+      <font>
+        <Font name="Comic Sans MS" size="28.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
